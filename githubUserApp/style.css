@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #141D2F;
+  color: white;
+  font-weight: 500;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body main .container .search-container {
+  background-color: #1F2A48;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  border-radius: 10px;
+}
+body main .container .search-container img {
+  height: 30px;
+  width: 30px;
+}
+body main .container .search-container button {
+  background-color: #0079FF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+body main .container .profile-container {
+  background-color: #1F2A48;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+body main .container .profile-container .profile {
+  margin-top: 30px;
+}
+body main .container .profile-container .profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+body main .container .profile-container .information-container {
+  margin-top: 20px;
+}
+body main .container .profile-container .information-container .section {
+  display: flex;
+  justify-content: space-between;
+}
+body main .container .profile-container .information-container .section .name h2, body main .container .profile-container .information-container .section .name p {
+  margin-top: 5px;
+}
+body main .container .profile-container .information-container .section .name {
+  margin-left: 20px;
+}
+body main .container .profile-container .information-container .section .date {
+  margin-left: 50px;
+  margin-top: 12px;
+}
+body main .container .profile-container .information-container .section .date p {
+  font-size: 14px;
+}
+body main .container .profile-container .information-container .repository {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-color: #141D2F;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+body main .container .profile-container .information-container .repository p {
+  text-align: center;
+  margin-top: 5px;
+}
+body main .container .profile-container .information-container .personal-details {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 140px;
+  margin-top: 30px;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .location {
+  display: flex;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .location img {
+  width: 13px;
+  height: 20px;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .location p {
+  margin-left: 15px;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .twitter {
+  display: flex;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .twitter img {
+  width: 15px;
+  height: 20px;
+  margin-top: 10px;
+}
+body main .container .profile-container .information-container .personal-details .detail1 .twitter p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .link {
+  display: flex;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .link img {
+  width: 15px;
+  height: 20px;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .link p {
+  margin-left: 15px;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .industry {
+  display: flex;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .industry img {
+  width: 16px;
+  height: 20px;
+  margin-top: 10px;
+}
+body main .container .profile-container .information-container .personal-details .detail2 .industry p {
+  margin-left: 15px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
