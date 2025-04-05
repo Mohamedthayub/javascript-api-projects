@@ -20,15 +20,22 @@ body main {
 }
 body main .container .search-container {
   background-color: #1F2A48;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  padding: 10px;
   border-radius: 10px;
 }
-body main .container .search-container img {
-  height: 30px;
-  width: 30px;
+body main .container .search-container input {
+  padding: 10px;
+  width: 450px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}
+body main .container .search-container input:focus {
+  outline: none;
 }
 body main .container .search-container button {
   background-color: #0079FF;
@@ -135,4 +142,8 @@ body main .container .profile-container .information-container .personal-details
 body main .container .profile-container .information-container .personal-details .detail2 .industry p {
   margin-left: 15px;
   margin-top: 10px;
+}
+
+#cont {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
