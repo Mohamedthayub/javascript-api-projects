@@ -36,6 +36,13 @@ body main .container .search-container input {
 }
 body main .container .search-container input:focus {
   outline: none;
+  background: transparent;
+}
+body main .container .search-container input::-moz-selection {
+  background: transparent;
+}
+body main .container .search-container input::selection {
+  background: transparent;
 }
 body main .container .search-container button {
   background-color: #0079FF;
