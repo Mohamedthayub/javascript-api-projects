@@ -1,18 +1,4 @@
 let userName = document.getElementById("userinput").value;
-function  validateUser(username){
-  const validPattern = /^[a-zA-Z0-9]+(-[a-zA-Z0-9]+)*$/;
-  if(!username){
-    alert("username must be valid");
-  }
-  if(userName.length > 39){
-    alert("username should not exceed 39 character");
-  }
-  if (!validPattern.test(userName)){
-    alert("Username can only contain letters, numbers, and hyphens (no spaces or special characters")
-  }
-  return username;
-  
-}
 
 async function getUser(){
   if(userName.value == ""){
