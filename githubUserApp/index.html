@@ -12,20 +12,21 @@
             <div class="search-container">
                 <div class="input-container">
                     <img src="assets/icon-search.svg" alt="search-icon" class="image">
-                    <input type="text" id="userinput">
+                    <input type="text" id="userinput" placeholder="Search Github Username...">
                 </div>
                 <button id="search-btn">Search</button>
             </div>
-            <div  id="cont">
+            <span id="user-error"></span>
+            <div class="profile-container">
                 <div class="profile">
-                    <img src="" alt="profilephoto" width="100" height="100" class="user-image">
+                    <img src="./assets/octocat.png" alt="profilephoto" width="100" height="100" class="user-image">
                 </div>
                 <div class="information-container">
                     <div class="section">
                         <div class="name">
-                            <h2 id="username">Mohideen thayub</h2>
-                            <p id="userid">@thayub</p>
-                            <p id="userbio">this is bio </p>
+                            <h2 id="username">The octocat</h2>
+                            <p id="userid">@octocat</p>
+                            <p id="userbio">this profile has no bio </p>
                         </div>
                         <div class="date">
                             <p id="joindate">joined 16 march 2020</p>
@@ -33,7 +34,7 @@
                     </div>
                     <div class="repository">
                         <div class="repos">
-                            <h4>Repository</h4>
+                            <h4>Public Repositories</h4>
                             <p id="repoNum">4</p>
                         </div>
                         <div class="follower">
@@ -49,21 +50,21 @@
                         <div class="detail1">
                             <div class="location">
                                 <img src="assets/icon-location.svg" alt="location-logo">
-                                <p id="userlocation">location</p>
+                                <p id="userlocation">Not available</p>
                             </div>
                             <div class="twitter">
                                 <img src="assets/icon-twitter.svg" alt="twitter-logo">
-                                <p id="twitter">Twitter</p>
+                                <p id="twitter">Not available</p>
                             </div>
                         </div>
                         <div class="detail2">
                             <div class="link">
                                 <img src="assets/icon-website.svg" alt="link">
-                                <p>link</p>
+                                <p id="user-link">Not available</p>
                             </div>
                             <div class="industry">
                                 <img src="assets/icon-company.svg" alt="company-logo">
-                                <p id="user-company">Company</p>
+                                <p id="user-company">Not available</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +73,7 @@
             </div>
         </div>
     </main>
-    <script src="src/app.js">
+    <script src="scripts/app.js" type="module">
     </script>
 </body>
 </html>

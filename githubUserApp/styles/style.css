@@ -11,6 +11,7 @@ body {
   background-color: #141D2F;
   color: white;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 body main {
   display: flex;
@@ -43,6 +44,12 @@ body main .container .search-container input::-moz-selection {
 }
 body main .container .search-container input::selection {
   background: transparent;
+}
+body main .container .search-container input::-moz-placeholder {
+  color: white;
+}
+body main .container .search-container input::placeholder {
+  color: white;
 }
 body main .container .search-container button {
   background-color: #0079FF;
@@ -77,6 +84,9 @@ body main .container .profile-container .information-container .section {
 body main .container .profile-container .information-container .section .name h2, body main .container .profile-container .information-container .section .name p {
   margin-top: 5px;
 }
+body main .container .profile-container .information-container .section .name h2 {
+  font-weight: 500;
+}
 body main .container .profile-container .information-container .section .name {
   margin-left: 20px;
 }
@@ -102,9 +112,12 @@ body main .container .profile-container .information-container .repository p {
 }
 body main .container .profile-container .information-container .personal-details {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-right: 140px;
   margin-top: 30px;
+}
+body main .container .profile-container .information-container .personal-details .detail1 {
+  margin-left: 20px;
 }
 body main .container .profile-container .information-container .personal-details .detail1 .location {
   display: flex;
@@ -128,6 +141,9 @@ body main .container .profile-container .information-container .personal-details
   margin-left: 15px;
   margin-top: 10px;
 }
+body main .container .profile-container .information-container .personal-details .detail2 {
+  margin-left: 50px;
+}
 body main .container .profile-container .information-container .personal-details .detail2 .link {
   display: flex;
 }
@@ -149,8 +165,4 @@ body main .container .profile-container .information-container .personal-details
 body main .container .profile-container .information-container .personal-details .detail2 .industry p {
   margin-left: 15px;
   margin-top: 10px;
-}
-
-#cont {
-  display: none;
 }/*# sourceMappingURL=style.css.map */
