@@ -1,5 +1,6 @@
 import { getUser } from "./api.js";
 import { validateUser } from "./user.js";
+import { convertdateFormat} from "./date.js";
 
 const searchBtn = document.querySelector("#search-btn");
 const userNameError = document.querySelector("#user-error");
@@ -93,6 +94,10 @@ async function createUser(user){
     }
     else{
       userCompany.innerText = "Not available";
+    }
+    const userJoinDate = document.querySelector("#joindate");
+    if(userdata.created_at != null){
+      userJoinDate.innerText ="joined" + " " + convertdateFormat(userdata.created_at);
     }
    }
    catch(err){
