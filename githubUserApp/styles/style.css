@@ -47,9 +47,13 @@ body main .container .search-container input::selection {
 }
 body main .container .search-container input::-moz-placeholder {
   color: white;
+  font-weight: 550;
+  letter-spacing: 1px;
 }
 body main .container .search-container input::placeholder {
   color: white;
+  font-weight: 550;
+  letter-spacing: 1px;
 }
 body main .container .search-container button {
   background-color: #0079FF;
