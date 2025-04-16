@@ -3,18 +3,18 @@ import { validateUser } from "./user.js";
 import { convertdateFormat} from "./date.js";
 
 const searchBtn = document.querySelector("#search-btn");
-const userNameError = document.querySelector("#user-error");
+export const userNameError = document.querySelector("#user-error");
 searchBtn.addEventListener("click",function(e){
   const userInput = document.querySelector("#userinput").value;
   let userResult = validateUser(userInput);
-  
   if(userResult == true){
     userNameError.innerText = "";
-    const apiResult =  getUser(userInput);
+    const apiResult = getUser(userInput);
     createUser(apiResult);
   }
   else{
     userNameError.innerText = userResult;
+    e.preventDefault();
   }
 })
 async function createUser(user){
@@ -104,3 +104,4 @@ async function createUser(user){
     console.log(err.message);
    }
 }
+

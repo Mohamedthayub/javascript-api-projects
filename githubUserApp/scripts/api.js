@@ -1,3 +1,4 @@
+import { userNameError } from "./app.js";
 export async function getUser(username){
       let URL = `https://api.github.com/users/${username}`; 
       try{
@@ -18,13 +19,12 @@ export async function getUser(username){
             default:
               throw new Error("Unexpected Erro" + response.statusText);
           }
-          
         }
         const data = await response.json();
         return data;
       }
       catch(err){
-        console.log(err.message);
+        userNameError.innerText = err.message;
       }
 }
   
