@@ -10,6 +10,7 @@ This is a simple web application that allows users to search for any GitHub user
 
 - HTML
 - CSS
+- SASS
 - JavaScript (Vanilla)
 - GitHub REST API
 
