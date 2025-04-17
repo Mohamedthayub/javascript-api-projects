@@ -19,6 +19,9 @@ body main {
   align-items: center;
   height: 100vh;
 }
+body main .container span {
+  color: red;
+}
 body main .container .search-container {
   background-color: #1F2A48;
   display: flex;

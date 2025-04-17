@@ -22,6 +22,9 @@ body{
         align-items: center;
         height: 100vh;
         .container{
+            span{
+                color: red;
+            }
             .search-container{
                 background-color: $containerColor;
                 display: flex;
