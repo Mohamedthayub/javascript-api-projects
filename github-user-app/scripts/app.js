@@ -17,6 +17,7 @@ searchBtn.addEventListener("click",function(e){
     e.preventDefault();
   }
 })
+
 async function createUser(user){
    try{
     const userdata = await user;
@@ -104,4 +105,3 @@ async function createUser(user){
     console.log(err.message);
    }
 }
-
