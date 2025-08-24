@@ -18,6 +18,8 @@ async function  getData(){
         console.log(response);
     }
     catch(error){
+        jokeText.innerText = "Failed to load advice, Please try again ."
+        jokeId.innerText = "";
         console.log("Failed to fetch joke :",error);
     }
     finally{
