@@ -6,7 +6,7 @@ A simple web application that fetches random jokes from the [Official Joke API](
 
 ## 📸 Screenshot  
 
-![Joke Generator Screenshot](./screenshot.png)  
+![Joke Generator Screenshot](./joke-generator.png)  
 *(Replace `screenshot.png` with your actual screenshot file name in the project folder)*  
 
 ---
